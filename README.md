@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click here to get to the site](https://eager-snyder-c38396.netlify.app/)
 
 ## My process
 
