@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  transition: all 0.1s;
+}
+
+.container {
+  position: relative;
+  background-color: #14253d;
+  border-radius: 1.5rem;
+  width: 300px;
+  padding: 1.8rem 1.8rem 0;
+  margin: 10rem auto;
+}
+.container .img {
+  position: relative;
+  height: 26rem;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+.container .img__view-container {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 255, 255, 0.45);
+}
+.container .img__view {
+  padding: 100%;
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .img__icon {
+  width: 100%;
+  background-size: contain;
+}
+
+.img:hover .img__view-container {
+  display: inline-block;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #0d192b;
+}
+
+.txt {
+  padding-bottom: 3rem;
+}
+.txt__header {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 2.2rem;
+}
+.txt__header:hover {
+  color: aqua;
+}
+.txt__body {
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid #2f415b;
+}
+.txt__body--txt {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #8bacda;
+  margin-bottom: 2rem;
+}
+.txt__body--icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.txt__body--icons--divide {
+  display: flex;
+  align-items: center;
+}
+.txt__body--icons--divide span {
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #8bacda;
+}
+.txt__body--icons--divide .span1 {
+  font-weight: 600;
+  color: aqua;
+}
+.txt__footer {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.txt__footer-img {
+  margin-right: 1.5rem;
+  box-sizing: content-box;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 0.15rem solid white;
+}
+.txt__footer p {
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: white;
+}
+.txt__footer p:hover {
+  color: aqua;
+}
+.txt__footer-aqua {
+  color: #8bacda;
+}
+
+.container::after {
+  content: " ";
+  background-color: #0e1725;
+  position: absolute;
+  width: 110%;
+  height: 102%;
+  top: 2rem;
+  left: -5%;
+  z-index: -20;
+  border-radius: 4rem;
+}
+
+.container::before {
+  content: " ";
+  background-color: #0d182b;
+  position: absolute;
+  width: 130%;
+  height: 120%;
+  top: -2rem;
+  left: -15%;
+  z-index: -40;
+  border-radius: 4rem;
+}/*# sourceMappingURL=main.css.map */
