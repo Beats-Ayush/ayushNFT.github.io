@@ -54,4 +54,4 @@ Would like to use more flexible layouts going forward. This was my first fronten
 ## Author
 
 - Frontend Mentor - [@Beats-Ayush](https://www.frontendmentor.io/profile/Beats-Ayush)
-- Twitter - [@AyushNa75006417](https://twitter.com/AyushNa75006417)
+- Twitter - [@madmausa](https://twitter.com/madmausa)
